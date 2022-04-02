@@ -1,0 +1,237 @@
+.Invreport{
+      align-items: center;
+      display: flex;
+      height: 100vh;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      font-size: 3rem; 
+}
+
+.Invmain{
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 3rem;      
+}
+
+.form-container-inv {
+    width: 450px;
+    background-color: black;
+    border: 3px solid white;
+    margin: auto;
+    border-radius: 9px;
+    box-shadow: 0 0 10px 0 black, 2px 2px 2px 0 #1b1b1b;
+    padding: 10px;
+    color: white;
+}
+
+.Item-form-inv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 10px;
+
+}
+
+.success-message {
+    font-family: "Roboto", sans-serif;
+    background-color: #3f89f8;
+    padding: 15px;
+    color: white;
+}
+
+.form-field-inv {
+    margin: 10px 0 10px 0;
+    padding: 15px;
+    font-size: 16px;
+    border: 0;
+    font-family: "Roboto", sans-serif;
+    background: white;
+    color: black;
+}
+
+span {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+input {
+    color: black;
+   
+}
+
+input::placeholder {
+    color: black;
+    opacity: 0.5;
+}
+
+.error {
+    border-style: solid;
+    border: 2px solid #ffa4a4;
+}
+
+button {
+    color: white;
+    cursor: pointer;
+}
+
+button:disabled {
+    cursor: default;
+}
+
+.btngroup-inv {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cancel-inv {
+    background-color: transparent;
+    border-radius: 5px;
+    border: 2px solid rgb(173, 25, 25);
+    color: white;
+    text-decoration: none;
+}
+
+.submit-inv {
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.edit-inv{
+    background-color: transparent;
+    border-radius: 5px;
+    border: 2px solid rgb(17, 146, 45);
+    color: white;
+    text-decoration: none;
+    
+}
+
+.title-inv {
+    margin-top: 20px;
+    padding: 20px 20px;
+    border-radius: 20px;
+    font-size: 25px; 
+}
+
+.logos-inv{
+    
+    position: absolute;
+    top: 0px;
+    right: -150px;
+    width: 500px;
+    height: 80px;
+   
+}
+
+.lbl-inv{
+    font-size: 14px;
+    font-family:'poppin';
+}
+
+.image01-inv{
+    width: 150px;
+    height: 120px;   
+}
+
+.btn{
+    padding: auto;
+}
+
+.landing_img_inv{
+        margin-right: 50px;   
+}
+
+.search_box-inv {
+    margin-top: -350px;
+    margin-left: 900px;
+}
+
+.inputReportSearch-inv {
+    background-color: rgb(10, 10, 10);
+    height: 50px;
+    width: 300px;
+    padding: 10px 30px;
+}
+
+.buttonPosition-inv {
+    margin-left: 70px;
+    margin-top: 70px;
+}
+
+.ReportButton-inv {
+    display: inline-flex;
+    height: 50px;
+    padding: 0;
+    background: #1b1b1b;
+    border: solid;
+    border-color: red;
+    border-radius: 5px;
+    overflow: hidden;
+    font-family: poppin;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 30px;
+}
+
+.button-text-inv,
+.button-icon-inv {
+    display: inline-flex;
+    align-items: center;
+    padding: 0 24px;
+    height: 100%;
+}
+
+.button-icon-inv {
+    font-size: 1.5em;
+    background-color: #1b1b1b;
+    color: white;
+    border-left: solid;
+    border-color: red;
+}
+
+.table-Inv {
+    border: 2px solid #999;
+    padding: 0.5rem;
+    color: black;
+    font-size: 14px;
+    background-color: white;
+    width: auto;
+}
+
+td, th {
+    border: 1px solid #999;
+    padding: 0.5rem;
+    width:auto;
+    height: 40px;
+  }
+
+.tablealign-inv{
+    margin-bottom: 100px;
+}  
+
+.inv-dash {
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 170px;
+}
+
+.Reportbutton{
+    display: inline-flex;
+    height: 30px;
+    border: 2px solid rgb(14, 13, 13);
+    font-family: poppin;
+    font-size: 16px;
+    font-weight: bold;
+    
+}
